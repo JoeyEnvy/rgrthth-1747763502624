@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | JOHN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
+            text-align: center;
+        }
+        .faq, .support, .resources, .feedback, .contact {
+            padding: 40px 20px;
+        }
+        .faq {
+            background-color: #e9ecef;
+        }
+        .faq h3 {
+            margin-bottom: 10px;
+        }
+        .support {
+            background-color: #f0f0f0;
+        }
+        .resources {
+            background-color: #fff;
+        }
+        .feedback {
+            background-color: #e9ecef;
+            text-align: center;
+        }
+        .feedback form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .feedback input, .feedback textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .feedback button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 768px) {
+            .faq, .support, .resources {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>JOHN</h1>
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h2>Frequently Asked Questions</h2>
+        <p>Your questions answered by our experts.</p>
+    </section>
+
+    <section class="faq">
+        <h2>FAQ</h2>
+        <div>
+            <h3>What services does JOHN offer?</h3>
+            <p>We offer a range of services including consulting, project management, and custom software development.</p>
+        </div>
+        <div>
+            <h3>How can I contact your support team?</h3>
+            <p>You can reach our support team through the contact form on our website, or by emailing support@john.com.</p>
+        </div>
+        <div>
+            <h3>What is your pricing model?</h3>
+            <p>Our pricing is customized based on the specific needs and scope of each project. Contact us for a detailed quote.</p>
+        </div>
+    </section>
+
+    <section class="support">
+        <h2>Customer Support</h2>
+        <p>Our dedicated support team is here to assist you with any inquiries or issues you may have.</p>
+        <p><i class="fas fa-phone-alt"></i> Call us: (123) 456-7890</p>
+        <p><i class="fas fa-envelope"></i> Email us: support@john.com</p>
+    </section>
+
+    <section class="resources">
+        <h2>Additional Resources</h2>
+        <p>Explore our resource library for more information on our services and industry insights.</p>
+        <ul>
+            <li><a href="#"><i class="fas fa-file-pdf"></i> Download our service brochure</a></li>
+            <li><a href="#"><i class="fas fa-video"></i> Watch our introduction video</a></li>
+            <li><a href="#"><i class="fas fa-blog"></i> Read our latest blog posts</a></li>
+        </ul>
+    </section>
+
+    <section class="feedback">
+        <h2>Feedback</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Feedback" rows="5" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 JOHN. All rights reserved.</p>
+    <p>
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-linkedin-in"></a>
+    </p>
+</footer>
+
+</body>
+</html>
