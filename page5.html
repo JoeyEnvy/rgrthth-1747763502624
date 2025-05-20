@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | JOHN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
+            text-align: center;
+        }
+        .introduction, .latest-posts, .category, .newsletter, .contact {
+            padding: 40px 20px;
+        }
+        .introduction {
+            background-color: #e9ecef;
+        }
+        .latest-posts {
+            background-color: #fff;
+        }
+        .category {
+            background-color: #f0f0f0;
+        }
+        .newsletter {
+            background-color: #e9ecef;
+            text-align: center;
+        }
+        .newsletter input {
+            width: calc(100% - 20px);
+            max-width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .newsletter button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .newsletter button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 768px) {
+            .introduction, .latest-posts, .category {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>JOHN</h1>
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h2>Welcome to Our Blog</h2>
+        <p>Insights, updates, and stories from JOHN.</p>
+    </section>
+
+    <section class="introduction">
+        <h2>About Our Blog</h2>
+        <p>The JOHN blog is your go-to source for the latest news in professional services, industry trends, and insights from our team of experts. Stay informed and get inspired by our stories and updates.</p>
+    </section>
+
+    <section class="latest-posts">
+        <h2>Latest Posts</h2>
+        <article>
+            <h3>Empowering Your Business with Technology</h3>
+            <p>Discover how technological advancements can propel your business forward. Our expert insights will guide you through the latest trends.</p>
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Technology in business" style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        </article>
+        <article>
+            <h3>Building a Sustainable Future</h3>
+            <p>Learn how businesses can adopt sustainable practices to ensure a better future for all. Explore our strategies for sustainable growth.</p>
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2" alt="Sustainability" style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        </article>
+    </section>
+
+    <section class="category">
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#"><i class="fas fa-lightbulb"></i> Innovation</a></li>
+            <li><a href="#"><i class="fas fa-handshake"></i> Partnerships</a></li>
+            <li><a href="#"><i class="fas fa-leaf"></i> Sustainability</a></li>
+        </ul>
+    </section>
+
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest posts and news directly in your inbox.</p>
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 JOHN. All rights reserved.</p>
+    <p>
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-linkedin-in"></a>
+    </p>
+</footer>
+
+</body>
+</html>
