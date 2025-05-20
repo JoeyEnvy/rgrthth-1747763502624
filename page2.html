@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | JOHN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #e9ecef;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1556740749-887f6717d7e4');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
+            text-align: left;
+        }
+        .services, .features, .testimonials, .contact {
+            padding: 40px 20px;
+        }
+        .services {
+            background-color: #f8f9fa;
+        }
+        .services img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .features {
+            background-color: #fff;
+        }
+        .testimonials {
+            background-color: #f0f0f0;
+        }
+        .contact {
+            background-color: #e9ecef;
+            text-align: center;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact input, .contact textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 768px) {
+            .services img {
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>JOHN</h1>
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h2>Our Services</h2>
+        <p>Empowering your business with innovative solutions.</p>
+    </section>
+
+    <section class="services">
+        <h2>What We Offer</h2>
+        <p>JOHN provides a comprehensive range of professional services tailored to help your business excel in a competitive market.</p>
+        <img src="https://images.unsplash.com/photo-1581091870622-4347e11f6a9b" alt="Professional services">
+        <ul>
+            <li>Consulting Services</li>
+            <li>Project Management</li>
+            <li>System Integration</li>
+            <li>Custom Software Development</li>
+        </ul>
+    </section>
+
+    <section class="features">
+        <h2>Features</h2>
+        <p>Our services are designed with your success in mind, offering features that ensure optimal performance and growth.</p>
+        <div class="feature-list">
+            <div>
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovative Solutions</h3>
+                <p>We bring new ideas to the table, helping you stay ahead of the curve.</p>
+            </div>
+            <div>
+                <i class="fas fa-cogs"></i>
+                <h3>Customized Approach</h3>
+                <p>Our services are tailored to meet your specific needs and goals.</p>
+            </div>
+            <div>
+                <i class="fas fa-users"></i>
+                <h3>Expert Team</h3>
+                <p>Our team comprises experienced professionals dedicated to your success.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <p>"JOHN has transformed our business operations with their expert solutions. Their team is exceptional!" - Client A</p>
+        <p>"The level of service and commitment from JOHN is unmatched. They truly understand our needs." - Client B</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 JOHN. All rights reserved.</p>
+    <p>
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-linkedin-in"></a>
+    </p>
+</footer>
+
+</body>
+</html>
